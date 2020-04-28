@@ -1,0 +1,21 @@
+function prefixNum(num, size) {
+   var s = num+"";
+    while (s.length < size) {
+      s = "0" + s
+      };
+    console.log(s);
+    return s;
+}
+prefixNum(10, 3);
+
+function prefixNum1(num, size) {
+  let si = 0;
+   var s = num+"";
+    while (si < size) {
+      si++;
+      s = "0" + s
+      };
+    console.log(s);
+    return s;
+}
+prefixNum1(10, 3);
